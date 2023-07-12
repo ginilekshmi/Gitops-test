@@ -4,28 +4,28 @@ items:
 - apiVersion: user.openshift.io/v1
   kind: User
   identities:
-  - gio-openid-idp:00uaa44tsuBkHrNXw5d7
+  - gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
   metadata:
-    name: 00uaa44tsuBkHrNXw5d7
+    name: 0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/sync-options: Validate=false
 - apiVersion: user.openshift.io/v1
   kind: Identity
   metadata:
-    name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+    name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/sync-options: Validate=false
   providerName: gio-openid-idp
-  providerUserName: 00uaa44tsuBkHrNXw5d7
+  providerUserName: 0oaaaj9f3f2iwtlBw5d7
 - apiVersion: user.openshift.io/v1
   kind: UserIdentityMapping
   metadata:
-    name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+    name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/sync-options: Validate=false
   user: 
-    name: 00uaa44tsuBkHrNXw5d7
+    name: 0oaaaj9f3f2iwtlBw5d7
   identity:
-    name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+    name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
 kind: List
 metadata: {}
