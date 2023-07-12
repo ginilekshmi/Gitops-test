@@ -7,10 +7,14 @@ items:
   - gio-openid-idp:00uaa44tsuBkHrNXw5d7
   metadata:
     name: 00uaa44tsuBkHrNXw5d7
+    annotations:
+      argocd.argoproj.io/sync-options: Validate=false
 - apiVersion: user.openshift.io/v1
   kind: Identity
   metadata:
     name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+    annotations:
+      argocd.argoproj.io/sync-options: Validate=false
   providerName: gio-openid-idp
   providerUserName: 00uaa44tsuBkHrNXw5d7
   user:
@@ -19,6 +23,8 @@ items:
   kind: UserIdentityMapping
   metadata:
     name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+    annotations:
+      argocd.argoproj.io/sync-options: Validate=false
   user: 
     name: 00uaa44tsuBkHrNXw5d7
   identity:
