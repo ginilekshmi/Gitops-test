@@ -17,8 +17,6 @@ items:
       argocd.argoproj.io/sync-options: Validate=false
   providerName: gio-openid-idp
   providerUserName: 00uaa44tsuBkHrNXw5d7
-  user:
-    name: 00uaa44tsuBkHrNXw5d7
 - apiVersion: user.openshift.io/v1
   kind: UserIdentityMapping
   metadata:
