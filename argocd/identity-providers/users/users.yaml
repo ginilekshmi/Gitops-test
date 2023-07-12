@@ -4,4 +4,4 @@ kind: User
 metadata:
   name: 00uaa44tsuBkHrNXw5d7
   annotations:
-    argocd.argoproj.io/sync-options: Prune=false
+    argocd.argoproj.io/sync-options: Validate=false
