@@ -24,7 +24,7 @@ items:
   metadata:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
     annotations:
-      argocd.argoproj.io/compare-options: IgnoreExtraneous
+      argocd.argoproj.io/compare-options: Validate=false
   user:
     name: 0oaaaj9f3f2iwtlBw5d7
 kind: List
