@@ -9,14 +9,14 @@ items:
     name: 0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/sync-options: Validate=false
-      argocd.argoproj.io/sync-wave: "0"
+      argocd.argoproj.io/sync-wave: "-1"
 - apiVersion: user.openshift.io/v1
   kind: Identity
   metadata:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/sync-options: Validate=false
-      argocd.argoproj.io/sync-wave: "1"
+      argocd.argoproj.io/sync-wave: "0"
   providerName: gio-openid-idp
   providerUserName: 0oaaaj9f3f2iwtlBw5d7
 - apiVersion: user.openshift.io/v1
@@ -27,7 +27,7 @@ items:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
     annotations:
       argocd.argoproj.io/compare-options: Replace=true
-      argocd.argoproj.io/sync-wave: "2"
+      argocd.argoproj.io/sync-wave: "1"
   user:
     name: 0oaaaj9f3f2iwtlBw5d7
 kind: List
