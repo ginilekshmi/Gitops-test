@@ -21,7 +21,7 @@ items:
   kind: UserIdentityMapping
   metadata:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
-  annotations:
+    annotations:
       argocd.argoproj.io/sync-options: Validate=false
   user:
     name: 0oaaaj9f3f2iwtlBw5d7
