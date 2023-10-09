@@ -15,3 +15,5 @@ items:
       argocd.argoproj.io/sync-options: Validate=false
   providerName: gio-openid-idp
   providerUserName: 0oaaaj9f3f2iwtlBw5d7
+kind: List
+metadata: {}
