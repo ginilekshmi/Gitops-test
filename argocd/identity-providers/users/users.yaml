@@ -16,6 +16,8 @@ items:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
   kind: UserIdentityMapping
   metadata:
+    annotations:
+      argocd.argoproj.io/sync-options: Replace=true
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
   user:
     name: 0oaaaj9f3f2iwtlBw5d7
