@@ -14,7 +14,7 @@ items:
   metadata:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
   providerName: gio-openid-idp
-  providerUserName: gio@redhat.com
+  providerUserName: 0oaaaj9f3f2iwtlBw5d7
 - apiVersion: user.openshift.io/v1
   identity:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
