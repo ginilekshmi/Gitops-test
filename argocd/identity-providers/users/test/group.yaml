@@ -3,4 +3,4 @@ kind: Group
 metadata:
   name: test-new
 users: 
-  null
+- name: gio
