@@ -1,10 +1,10 @@
 apiVersion: v1
 items:
 - apiVersion: user.openshift.io/v1
-  fullName: Ginilekshmi A 0
   kind: User
   metadata:
     name: gio@redhat.com
+  fullName: Ginilekshmi A 0
 - apiVersion: user.openshift.io/v1
   kind: Identity
   extra:
