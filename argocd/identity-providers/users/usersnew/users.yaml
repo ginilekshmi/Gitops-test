@@ -1,1 +1,19 @@
-
+apiVersion: v1
+items:
+- apiVersion: user.openshift.io/v1
+  fullName: Ginilekshmi A 0
+  kind: User
+  metadata:
+    name: gio@redhat.com
+- apiVersion: user.openshift.io/v1
+  kind: Identity
+  extra:
+    email: gio@redhat.com
+    name: Ginilekshmi A 0
+    preferred_username: gio@redhat.com
+  metadata:
+    name: gio-openid-idp:00uaa44tsuBkHrNXw5d7
+  providerName: gio-openid-idp
+  providerUserName: 00uaa44tsuBkHrNXw5d7
+kind: List
+metadata: {}
