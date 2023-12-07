@@ -4,8 +4,7 @@ items:
 - apiVersion: user.openshift.io/v1
   kind: User
   metadata:
-    name: gio@redhat.com
-  fullName: Ginilekshmi A 0
+    name: gio
 - apiVersion: user.openshift.io/v1
   kind: Identity
   extra:
