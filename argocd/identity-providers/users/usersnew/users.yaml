@@ -12,7 +12,7 @@ items:
     name: giored
     preferred_username: gio@redhat.com
   metadata:
-    name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
+    name: gio-openid-idp:giored
   providerName: gio-openid-idp
   providerUserName: 0oaaaj9f3f2iwtlBw5d7
 kind: List
