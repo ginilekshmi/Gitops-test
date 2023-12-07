@@ -9,7 +9,7 @@ items:
   kind: Identity
   extra:
     email: gio@redhat.com
-    name: Ginilekshmi A 0
+    name: gio
     preferred_username: gio@redhat.com
   metadata:
     name: gio-openid-idp:0oaaaj9f3f2iwtlBw5d7
